@@ -1,0 +1,12 @@
+Password_generator
+
+- Generar una contraseña con:
+    - Sistema de reinicio
+    - 12 caracteres
+    - Tiene que tener una letra en mayúsculas
+    - TIene que tener 2 números que no sean secuenciales
+    - Tiene que tener un caracter especial
+    - 12 caracteres de los cuales 4 son números, 5 son letras, 2 letras mayúsculas y 1 caracter especial
+    - Preguntar si quiere otra contraseña
+    - Primer random del 0 al 3 que empieze desde 0 hasta el largo del array, para designar que por que tipo de caracter empieza(letra, letra mayuscula, numero, caracter especial)
+    - Cuando pasa al módulo genera un caracter y le designa un +1 al contador. Cuando el contador llega al máximo del tipo de caracter lo elimina del array
